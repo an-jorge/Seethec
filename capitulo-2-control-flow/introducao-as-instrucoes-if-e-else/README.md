@@ -73,13 +73,53 @@ A instrução `else if` é usada quando você precisa verificar **múltiplas con
 
 O programa verifica as condições na ordem em que aparecem.
 
-Assim que uma condição for verdadeira 1, o bloco correspondente será executado e o restante será ignorado.
+Assim que uma condição for verdadeira 1, o bloco correspondente será executado e o restante será ignorado. O bloco `else` é opcional e será executado apenas se **nenhuma das condições anteriores for verdadeira**.
 
-O bloco `else` é opcional e será executado apenas se **nenhuma das condições anteriores for verdadeira**.
+
 {% endhint %}
+
+
+
+**Aqui está um exemplo prático**:
 
 {% code overflow="wrap" %}
 ```c
+#include <stdio.h>
+
+int main()
+{
+    int score = 10;
+
+    printf("Sua pontuacao %d", score);
+
+    if (score >= 90)
+    {
+        printf("Você tirou A.\n");
+    }
+    else if (score >= 80)
+    {
+        printf("Você tirou B.\n");
+    }
+    else if (score >= 70)
+    {
+        printf("Você tirou C.\n");
+    }
+    else if (score >= 60)
+    {
+        printf("Você tirou D.\n");
+    }
+    else
+    {
+        printf("Você foi reprovado.\n");
+    }
+
+    return 0;
+}
 ```
 {% endcode %}
 
+***
+
+
+
+A instrução `else if` é uma ferramenta poderosa para lidar com múltiplas condições em um programa. Ela permite que você crie fluxos de decisão mais complexos e dinâmicos, tornando seu código mais flexível e funcional.
