@@ -12,7 +12,22 @@ layout:
     visible: true
 ---
 
-# Introdução às Instruções if e else
+# Estruturas condicionais
+
+{% hint style="info" %}
+#### **Saiba mais** <a href="#saiba-mais" id="saiba-mais"></a>
+
+**No final desta lição, você será capaz de responder ao seguinte**:\
+O que são "Estruturas Condicionais"
+
+* `if`, `else`, `switch`
+
+O que são "Instruções Condicionais"
+{% endhint %}
+
+
+
+## Introdução às Instruções if e else
 
 Na programação as instruções `if` e `else` são usadas para controlar o fluxo do programa com base em condições. Assim como na vida, as condições permitem que você execute diferentes blocos de código dependendo se uma condição é verdadeira ou falsa.
 
@@ -68,6 +83,8 @@ A instrução `else if` é usada quando você precisa verificar **múltiplas con
 
 ***
 
+
+
 {% hint style="info" %}
 ## Saiba mais
 
@@ -118,8 +135,70 @@ int main()
 ```
 {% endcode %}
 
+
+
+A instrução `else if` é uma ferramenta poderosa para lidar com múltiplas condições em um programa. Ela permite que você crie fluxos de decisão mais complexos e dinâmicos, tornando seu código mais flexível e funcional.
+
+
+
 ***
 
 
 
-A instrução `else if` é uma ferramenta poderosa para lidar com múltiplas condições em um programa. Ela permite que você crie fluxos de decisão mais complexos e dinâmicos, tornando seu código mais flexível e funcional.
+## Introdução às Instruções `switch`
+
+
+
+`switche` é usada para realizar uma selecção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções if e else if.&#x20;
+
+**A estrutura básica do** `switch` **é a seguinte:**
+
+{% code overflow="wrap" %}
+```c
+#include <stdio.h>
+
+int main() {
+    int option = 2;
+
+    switch (option) {
+        case 1:
+            printf("Opção 1 selecionada.\n");
+            break;
+        case 2:
+            printf("Opção 2 selecionada.\n");
+            break;
+        case 3:
+            printf("Opção 3 selecionada.\n");
+            break;
+        default:
+            printf("Opção inválida.\n");
+            break;
+    }
+
+    return 0;
+}
+```
+{% endcode %}
+
+
+
+**Vantagens do uso de** `switch`**:**
+
+* **Melhora a legibilidade:** O `switch` torna o código mais organizado e fácil de ler, especialmente quando comparado a longas cadeias de instruções `if else`, `else-if`.
+* **Manutenção facilitada:** Adicionar ou remover casos é simples, pois cada condição e seu código associado ficam agrupados.
+* **Eficiência:** Em alguns casos, o `switch` pode ser mais eficiente que encadeamentos de `if else else if` devido à optimizações realizadas pelo compilador.
+
+***
+
+
+
+{% hint style="info" %}
+## Saiba mais
+
+Os valores nos casos (`case`) devem ser constantes e do mesmo tipo que a expressão sendo avaliada.
+
+O `break` é crucial para evitar a execução descontrolada de casos subsequentes.
+
+O bloco `default` é opcional, mas recomendado para lidar com valores inesperados da expressão.
+{% endhint %}
+
