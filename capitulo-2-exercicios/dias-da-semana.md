@@ -5,7 +5,7 @@ icon: '3'
 # Dias da Semana
 
 {% hint style="warning" %}
-### ⚡️ Exercício 3: **Dias da Semana** 📅 <a href="#exercicio-1-operacoes-matematicas-simples" id="exercicio-1-operacoes-matematicas-simples"></a>
+### ⚡️ Exercício 3: **Dias da Semana**  <a href="#exercicio-1-operacoes-matematicas-simples" id="exercicio-1-operacoes-matematicas-simples"></a>
 
 **Objetivo:** Criar um programa que peça um número de 1 a 7 e exiba o dia da semana correspondente.\
 
@@ -15,9 +15,9 @@ icon: '3'
 
 ### **Instruções:** <a href="#instrucoes" id="instrucoes"></a>
 
-* O usuário digita um número de **1 a 7**.
-* Use `switch` para associar os números aos dias da semana.
-* Se o número for inválido, exiba uma mensagem de erro.
+* [ ] O usuário digita um número de **1 a 7**.
+* [ ] Use `switch` para associar os números aos dias da semana.
+* [ ] Se o número for inválido, exiba uma mensagem de erro.
 
 
 

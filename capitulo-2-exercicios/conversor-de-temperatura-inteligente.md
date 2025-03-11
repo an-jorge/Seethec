@@ -17,9 +17,9 @@ icon: '2'
 
 ### **Instruções:** <a href="#instrucoes" id="instrucoes"></a>
 
-* **Menos de 15°C** → "Está frio!"
-* **Entre 15°C e 30°C** → "Temperatura agradável!"
-* **Acima de 30°C** → "Está quente!"
+* [ ] **Menos de 15°C** → "Está frio!"
+* [ ] **Entre 15°C e 30°C** → "Temperatura agradável!"
+* [ ] **Acima de 30°C** → "Está quente!"
 
 
 
