@@ -162,7 +162,7 @@ int main() {
 {% endcode %}
 
 {% hint style="danger" %}
-**Atenção**
+## **Atenção**
 
 * Se um ou ambos os números forem de ponto flutuante, o resultado será um número decimal.
 
