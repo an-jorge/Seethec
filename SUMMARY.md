@@ -49,3 +49,4 @@
   * [Calculadora de Notas](capitulo-2-exercicios/calculadora-de-notas.md)
   * [Verificação de Paridade de um Número](capitulo-2-exercicios/verificacao-de-paridade-de-um-numero.md)
   * [Conversor de Temperatura Inteligente](capitulo-2-exercicios/conversor-de-temperatura-inteligente.md)
+  * [Dias da Semana](capitulo-2-exercicios/dias-da-semana.md)
