@@ -52,17 +52,15 @@ int main() {
 
 
 
-
-
 ## Instrução `switch` <a href="#instrucao-switch" id="instrucao-switch"></a>
 
 ***
 
 
 
-`switche` é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if.`&#x20;
+`switche` é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if`.&#x20;
 
-**A estrutura básica do `switch` é a seguinte:**
+**A estrutura básica do** `switch` **é a seguinte:**
 
 {% code overflow="wrap" %}
 ```c
@@ -131,10 +129,10 @@ Se esquecermos o `break`, os `case` seguintes serão executados **mesmo sem corr
 
 `continue` e `break` são utilizados para alterar o fluxo de execução dentro de laços de repetição (`for`, `while`, `do-while`) e também no comando `switch-case` em C.
 
-* **`break`:**
+* `break`**:**
   * Interrompe imediatamente o loop de repetição em que está inserido.
   * O programa continua a execução a partir da instrução seguinte ao loop.
-* **`continue`:**
+* `continue`**:**
   * Interrompe a iteração actual do loop de repetição em que está inserido.
   * O programa pula para a avaliação da condição do loop e, se verdadeira, executa a próxima iteração.
 
