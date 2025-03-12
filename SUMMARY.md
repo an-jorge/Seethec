@@ -51,3 +51,4 @@
   * [Conversor de Temperatura Inteligente](capitulo-2-exercicios/conversor-de-temperatura-inteligente.md)
   * [Dias da Semana](capitulo-2-exercicios/dias-da-semana.md)
   * [Calculadora Simples](capitulo-2-exercicios/calculadora-simples.md)
+  * [Conversor de Unidades](capitulo-2-exercicios/conversor-de-unidades.md)
