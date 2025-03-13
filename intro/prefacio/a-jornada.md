@@ -1,7 +1,3 @@
----
-icon: centercode
----
-
 # A Jornada
 
 ***

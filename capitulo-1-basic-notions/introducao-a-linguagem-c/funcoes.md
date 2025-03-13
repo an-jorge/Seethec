@@ -284,15 +284,45 @@ printf(format_string, argument1, argument2);
 * `format_string`: Uma string que define o layout da saída, incluindo texto e especificadores de formato.
 * `argument1, argument2, ...`: Uma lista variável de argumentos que fornecem os dados a serem impressos.
 
-{% code overflow="wrap" %}
-```c
-printf("Olá, mundo!\n"); // Exibe a mensagem "Olá, mundo!"
-printf("O valor de x é %d\n", 10); // Exibe "O valor de x é 10"
+<pre class="language-c" data-overflow="wrap"><code class="lang-c"><strong>
+</strong><strong>printf("Olá, mundo!\n"); // Exibe a mensagem "Olá, mundo!"
+</strong>printf("O valor de x é %d\n", 10); // Exibe "O valor de x é 10"
 printf("Nome: %s, Idade: %d\n", "João", 30); // Exibe "Nome: João, Idade: 30"
-```
-{% endcode %}
+
+</code></pre>
 
 
 
 ***
+
+
+
+{% hint style="info" %}
+## Saiba mais
+
+## Resumindo
+
+***
+
+
+
+**a) Tipo de retorno**
+
+* Define o tipo de dado que a função retorna:
+  * `int`, `float`, `char`, `void`, etc.
+* Se a função não retorna nenhum valor, o tipo de retorno é `void`.
+
+**b) Nome da função**
+
+* Deve seguir as regras de nomenclatura para identificadores em C.
+
+c) **Parâmetros**
+
+* São variáveis recebidas pela função para processar dados.
+* Podem ser de qualquer tipo e passar por **valor** (cópia) ou por **referência** (ponteiro).
+
+d) **Corpo da função**
+
+* Contém o código que será executado.
+{% endhint %}
 
