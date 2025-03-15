@@ -55,14 +55,14 @@ Tepetição número 10
 ```
 {% endcode %}
 
-{% hint style="info" %}
-## Saiba mais:
+{% hint style="success" %}
+## 💡 Explicação
 
 
 
-* **Inicialização**: `int i = 0` (a variável `i` começa em 0).
-* **Condição**: `i < 5` (o loop continua enquanto `i` for menor que 5).
-* **Incremento**: `i++` (a variável `i` é incrementada em 1 a cada iteração).
+* **Inicialização**: `int item = 0` (a variável `item` começa em 0).
+* **Condição**: `item < 10` (o loop continua enquanto `item` for menor que 10).
+* **Incremento**: `item++` (a variável `item` é incrementada em 1 a cada iteração).
 {% endhint %}
 
 
