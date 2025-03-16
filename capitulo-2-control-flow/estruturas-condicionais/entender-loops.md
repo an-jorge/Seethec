@@ -50,9 +50,9 @@ Contando  5
 ```
 {% endcode %}
 
-* <mark style="background-color:blue;">**Inicialização**</mark><mark style="background-color:blue;">:</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`int i = 0`</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">(a variável</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`i`</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">começa em 0).</mark>
-* <mark style="background-color:blue;">**Condição**</mark><mark style="background-color:blue;">:</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`i < 5`</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">(o loop continua enquanto</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`i`</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">for menor que 5).</mark>
-* <mark style="background-color:blue;">**Incremento**</mark><mark style="background-color:blue;">:</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`i++`</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">(a variável</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`i`</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">é incrementada em 1 a cada iteração).</mark>
+* **Inicialização**: `int i = 0` (a variável `i` começa em 0).
+* **Condição**: `i < 5` (o loop continua enquanto `i` for menor que 5).
+* **Incremento**: `i++` (a variável `i` é incrementada em 1 a cada iteração).
 
 ***
 
@@ -110,8 +110,8 @@ Contando: 4
 ```
 {% endcode %}
 
-* <mark style="background-color:blue;">**Condição**</mark><mark style="background-color:blue;">:</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`contador < 5`</mark>
-* <mark style="background-color:blue;">O loop executa enquanto o valor de</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`contador`</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">for menor que 5. Quando</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`contador`</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">atinge 5, o loop é encerrado.</mark>
+* **Condição**: `contador < 5`
+* O loop executa enquanto o valor de `contador` for menor que 5. Quando `contador` atinge 5, o loop é encerrado.
 
 ***
 
