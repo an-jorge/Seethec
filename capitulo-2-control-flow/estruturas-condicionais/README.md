@@ -33,7 +33,7 @@ O que são "Instruções Condicionais"
 
 Na programação as instruções `if` e `else` são usadas para controlar o fluxo do programa com base em condições. Assim como na vida, as condições permitem que você execute diferentes blocos de código dependendo se uma condição é verdadeira ou falsa.
 
-
+#### **Sintaxe do `if else`**
 
 {% code overflow="wrap" %}
 ```c
@@ -78,8 +78,6 @@ int main() {
 ***
 
 ## Introdução à Instrução `else-if`&#x20;
-
-***
 
 A instrução `else if` é usada quando você precisa verificar **múltiplas condições** em um programa. Ela é uma extensão da estrutura `if-else` e permite adicionar várias condições intermediárias antes de chegar ao bloco `else`.
 
@@ -143,7 +141,7 @@ A instrução `else if` é uma ferramenta poderosa para lidar com múltiplas con
 
 ***
 
-
+## Instrução `switche`
 
 `switche` é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if`.&#x20;
 
