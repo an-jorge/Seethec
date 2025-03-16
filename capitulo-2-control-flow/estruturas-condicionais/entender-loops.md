@@ -1,6 +1,6 @@
 # Entender loops
 
-### Instrução `for`
+## Instrução `for`
 
 &#x20;loop `for` é uma estrutura de controle de fluxo ou repetição que permite executar repetidamente um bloco de código enquanto uma condição for verdadeira. Ele é amplamente utilizado para situações em que o número de iterações é conhecido previamente.
 
@@ -28,7 +28,7 @@ int main() {
   int item;
 
   for (item = 1; item <= 10; item++) {
-    printf("Tepetição número %d\n", item);
+    printf("Repetição número %d\n", item);
   }
 
   return 0;
@@ -41,16 +41,16 @@ int main() {
 {% code overflow="wrap" %}
 ```
 
-Tepetição número 1
-Tepetição número 2
-Tepetição número 3
-Tepetição número 4
-Tepetição número 5
-Tepetição número 6
-Tepetição número 7
-Tepetição número 8
-Tepetição número 9
-Tepetição número 10
+Rodada 1
+Rodada 2
+Rodada 3
+Rodada 4
+Rodada 5
+Rodada 6
+Rodada 7
+Rodada 8
+Rodada 9
+Rodada 10
 
 ```
 {% endcode %}
@@ -68,3 +68,24 @@ Tepetição número 10
 
 
 ***
+
+
+
+## Instrução `while` <a href="#instrucao-while" id="instrucao-while"></a>
+
+
+
+O `while` é uma **instrução de controle de fluxo** que utiliza uma **condição** para determinar se um bloco de código será executado repetidamente. Em poucas palavras podemos dizer que, o `while` é uma **estrutura de repetição** que depende de uma **condição lógica** para continuar ou parar a execução de um loop.
+
+#### **Sintaxe Geral**
+
+{% code overflow="wrap" %}
+```c
+while (condição) {
+    // Bloco de código a ser executado enquanto a condição for verdadeira
+}
+```
+{% endcode %}
+
+
+
