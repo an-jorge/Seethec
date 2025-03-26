@@ -141,9 +141,9 @@ A instrução `else if` é uma ferramenta poderosa para lidar com múltiplas con
 
 ***
 
-## Instrução `switche`
+## Instrução `switch`
 
-`switche` é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if`.&#x20;
+`switch` é usada para realizar uma seleção entre várias alternativas com base no valor de uma expressão. É uma forma mais organizada e eficiente de lidar com múltiplas opções do que uma série de instruções `if` e `else if`.&#x20;
 
 **A estrutura básica do** `switch` **é a seguinte:**
 
@@ -260,6 +260,7 @@ int main()
 #include <stdio.h>
 
 int main() {
+
   for (int i = 1; i <= 10; i++) {
     if (i == 5) {
       break; // Sai do loop quando i for igual a 5
@@ -304,7 +305,9 @@ Embora muitas vezes indesejado, o "fall-through" pode ser útil em alguns casos,
 
 
 <pre class="language-c" data-overflow="wrap"><code class="lang-c">#include &#x3C;stdio.h>
+
 int main() { char letra = 'a';
+
 <strong>switch (letra) {
 </strong>    case 'a':  
     case 'e':  
