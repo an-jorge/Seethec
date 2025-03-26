@@ -21,8 +21,8 @@
   * [Operadores aritméticos](capitulo-1-basic/introducao-a-linguagem-c/operadores-aritmeticos.md)
   * [Operadores relacionais e lógicos](capitulo-1-basic/introducao-a-linguagem-c/operadores-relacionais-e-logicos.md)
   * [Operadores de atribuição Compostos](capitulo-1-basic/introducao-a-linguagem-c/operadores-de-atribuicao-compostos.md)
-  * [Função Print](capitulo-1-basic/introducao-a-linguagem-c/funcao-print.md)
-  * [Especificadores de formato printf() e scanf()](capitulo-1-basic/introducao-a-linguagem-c/especificadores-de-formato-printf-e-scanf.md)
+  * [Função](capitulo-1-basic/introducao-a-linguagem-c/funcao.md)
+  * [Especificadores de formato](capitulo-1-basic/introducao-a-linguagem-c/especificadores-de-formato.md)
 * [Capítulo 1: Exercícios](capitulo-1-basic/capitulo-1-exercicios/README.md)
   * [Operações Matemáticas Simples](capitulo-1-basic/capitulo-1-exercicios/operacoes-matematicas-simples.md)
   * [Cálculo de Média Aritmética](capitulo-1-basic/capitulo-1-exercicios/calculo-de-media-aritmetica.md)
@@ -52,5 +52,5 @@
 
 ## Capítulo 3: Functions
 
-* [Funções](capitulo-3-functions/funcoes.md)
+* [Funções uma bordagem abragente](capitulo-3-functions/funcoes-uma-bordagem-abragente.md)
 * [Page](capitulo-3-functions/page.md)
