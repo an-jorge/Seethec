@@ -52,5 +52,5 @@
 
 ## Capítulo 3: Functions
 
-* [Funções uma bordagem abragente](capitulo-3-functions/funcoes-uma-bordagem-abragente.md)
+* [Funções - Uma abordagem abrangente](capitulo-3-functions/funcoes-uma-abordagem-abrangente.md)
 * [Page](capitulo-3-functions/page.md)

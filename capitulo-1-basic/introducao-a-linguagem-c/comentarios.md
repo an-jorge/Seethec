@@ -19,7 +19,7 @@ Geralmente acredita-se que um bom código é autoexplicativo, [há um livro famo
 
 Para escrever um comentário, digite // (duas barras), seguido pelo comentário que deseja adicionar. Tudo depois de // é ignorado até a próxima linha.
 
-{% code overflow="wrap" lineNumbers="true" %}
+{% code overflow="wrap" %}
 ```c
   printf("Olá mundo!\n");  // Prints Olá mundo!
   
