@@ -95,9 +95,29 @@ Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo comple
 
 
 
-## "OLÁ MUNDO"
+## "HELLO WORLD" - Seu Primeiro Programa
 
 ***
+
+{% code overflow="wrap" lineNumbers="true" %}
+```c
+#include <stdio.h>            
+
+int main () 
+{                
+   printf("Hello World! \n"); 
+   return 0;                  
+}  
+
+                             
+```
+{% endcode %}
+
+{% hint style="info" %}
+## Compilar o seu código
+
+Dupla barra **//** indica um comentarios são ignorados pelo compilador
+{% endhint %}
 
 
 
@@ -125,8 +145,6 @@ Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo comple
 
 
 {% endhint %}
-
-***
 
 
 
