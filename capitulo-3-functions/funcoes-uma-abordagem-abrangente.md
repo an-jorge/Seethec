@@ -18,17 +18,11 @@ A pouca adoção de outros compiladores incluindo **GCC** e **Clang** por acredi
 
 Outra abordagem é que a Microsoft implementou o **Microsoft Secure CRT**, que é **inspirado no Annex K**, mas são encontradas diferenças e **não segue o padrão ISO C11**.
 
-Devido à **baixa adoção**, o Annex K foi **removido do padrão C23**. A **comunidade C** decidiu que ele **não era essencial** e preferiu investir em práticas de segurança mais amplamente adotadas.
+[Devido à **baixa adoção**, o Annex K foi **removido do padrão C23**. A **comunidade C** decidiu que ele **não era essencial** e preferiu investir em práticas de segurança mais amplamente adotadas.](#user-content-fn-4)[^4]
 
 
 
-### **Vantagens de segurança do scanf\_s:**
-
-* **Verificação de tamanho:** Ao especificar o tamanho máximo do buffer de destino como argumento adicional, `scanf_s` ajuda a prevenir estouro de buffer.
-* **Validação de tipo (opcional):** Dependendo da implementação, `scanf_s` pode realizar verificações de tipo opcionais para garantir que os dados lidos correspondam ao tipo de variável esperado.
-* **Retorno de erro:** `scanf_s` retorna códigos de erro específicos para indicar problemas durante a leitura, auxiliando no tratamento de excepções.
-
-Vamos fazer um conjunto de bricandeiras com a funções `scanf` e `print`
+**Vamos fazer um conjunto de bricandeiras com a funções `scanf` e `print`**
 
 ```c
 
@@ -43,14 +37,22 @@ int main()
     scanf("%s", name);
     printf("Digite sua idade: ");
     scanf("%d", &age);
-    printf("Seu nome: %s, sua idade: %d\n", name, age);
+    printf("Seu nome: %s, sua idade: %d anos\n", name, age);
     printf("Obrigado por informar \n");
 
     return 0;
 }
 
-
 ```
+
+{% hint style="info" %}
+## Terminal
+
+Digite seu nome: Andre
+
+Digite sua idade: 12\
+Seu nome: Andre, sua idade: 12 anos
+{% endhint %}
 
 
 
@@ -66,3 +68,5 @@ int main()
 [^2]: A **Microsoft Secure CRT** é um conjunto de funções implementado no **MSVC (Microsoft Visual C++)** que expande as funções tradicionais do C com verificações de segurança. Essas funções são **específicas para o Windows** e não fazem parte do padrão ISO C11
 
 [^3]: **Annex K** (Anexo K) é uma extensão opcional do padrão **ISO C11** que define um conjunto de **funções seguras** para manipulação de strings, entrada e saída de dados, e manipulação de arquivos. Ele foi introduzido para mitigar problemas comuns, como **buffer overflow**, **format string attacks** e **acessos indevidos à memória**.
+
+[^4]: Informações detalhadas sobre a remoção do **Annex K** no padrão **C23** proposta **WG14 N2809**, intitulada **"Annex K Repairs"**, de autoria de **Robert C. Seacord**, 4 de outubro de 2021
