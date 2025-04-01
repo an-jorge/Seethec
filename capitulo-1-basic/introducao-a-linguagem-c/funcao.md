@@ -109,15 +109,7 @@ A função `printf` oferece opções avançadas para formatar a saída, como:
 
 
 
-## Função `scanf_s` <a href="#funcao-scanf_s" id="funcao-scanf_s"></a>
-
-`scanf_s` é uma versão alternativa e mais segura da função `scanf` introduzida no padrão C11 (2011) e em bibliotecas C seguras como Microsoft Secure CRT. Ela oferece recursos para mitigar os problemas de segurança associados ao `scanf` tradicional, mas nem sempre está disponível em todos os ambientes de desenvolvimento.
-
-**Vantagens de segurança do scanf\_s:**
-
-* **Verificação de tamanho:** Ao especificar o tamanho máximo do buffer de destino como argumento adicional, `scanf_s` ajuda a prevenir estouro de buffer.
-* **Validação de tipo (opcional):** Dependendo da implementação, `scanf_s` pode realizar verificações de tipo opcionais para garantir que os dados lidos correspondam ao tipo de variável esperado.
-* **Retorno de erro:** `scanf_s` retorna códigos de erro específicos para indicar problemas durante a leitura, auxiliando no tratamento de excepções.
+## &#x20;<a href="#funcao-scanf_s" id="funcao-scanf_s"></a>
 
 Vamos fazer um conjunto de bricandeiras com a funções `scanf` e `print`
 
