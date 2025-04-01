@@ -53,4 +53,3 @@
 ## Capítulo 3: Functions
 
 * [Funções - Uma abordagem abrangente](capitulo-3-functions/funcoes-uma-abordagem-abrangente.md)
-* [Page](capitulo-3-functions/page.md)
