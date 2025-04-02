@@ -16,14 +16,20 @@ O [**Annex K**](#user-content-fn-3)[^3] introduziu funções seguras que possuem
 
 A pouca adoção de outros compiladores incluindo **GCC** e **Clang** por acreditar que ele não resolve completamente os problemas de segurança. Ainda se diz que **Annex K** não respeitou a filosofia do C que foi projetado para ser **minimalista** e **portável**. **O Annex K** adiciona **muita complexidade**, o que não é bem-visto pela comunidade e amantes da linguagem.
 
-Outra abordagem é que a Microsoft implementou o **Microsoft Secure CRT**, que é **inspirado no Annex K**, mas são encontradas diferenças e **não segue o padrão ISO C11**.
-
 [Devido à **baixa adoção**, o Annex K foi **removido do padrão C23**. A **comunidade C** decidiu que ele **não era essencial** e preferiu investir em práticas de segurança mais amplamente adotadas.](#user-content-fn-4)[^4]
 
 
 
-**Vamos fazer um conjunto de bricandeiras com a funções `scanf` e `print`**
+***
 
+
+
+A função `scanf` é uma ferramenta poderosa na linguagem C para receber entradas do usuário ao lado de outras funções como `fgets()`. Aqui estão algumas das principais vantagens de seu uso:\
+
+
+**Vamos fazer um conjunto de bricandeiras com a funções** `scanf` **e** `print` .
+
+{% code overflow="wrap" %}
 ```c
 
 #include <stdio.h>
@@ -37,21 +43,24 @@ int main()
     scanf("%s", name);
     printf("Digite sua idade: ");
     scanf("%d", &age);
-    printf("Seu nome: %s, sua idade: %d anos\n", name, age);
+    printf("Seu nome: %s, Sua idade: %d anos\n", name, age);
     printf("Obrigado por informar \n");
 
     return 0;
 }
 
 ```
+{% endcode %}
 
 {% hint style="info" %}
 ## Terminal
 
-Digite seu nome: Andre
 
-Digite sua idade: 12\
-Seu nome: Andre, sua idade: 12 anos
+
+Digite seu nome: Andre\
+Digite sua idade: 12
+
+Seu nome: Andre, Sua idade: 12 anos
 {% endhint %}
 
 
