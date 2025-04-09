@@ -11,7 +11,9 @@ Os algoritmos pode ser representados de forma visual por meio de um fluxograma, 
 <figure><img src="https://pati.arisa.com.br/wiki/images/b/bb/Fluxograma_simbologia.png" alt="Forma padronizada para representar os passos lógicos de um determinado processamento."><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-#### **Regras para criar um Fluxograma**
+### **Atenção:**
+
+**Regras para criar um Fluxograma**
 
 Defina um objetivo claro:
 
@@ -39,9 +41,11 @@ Outra tecnica de representação é a pseudolinguagem, é um conjunto de técnic
 {% hint style="warning" %}
 ### ✏️ **Actividade** de aprendizagem&#x20;
 
-* Faça um **fluxograma** para imprimir dois nomes que deverão ser lidos através de uma unidade de entrada de dados qualquer.
-* Faça um **fluxograma** que leia 3 números inteiros. Calcule e imprima a soma desses números.
-* Implementar um **fluxograma** que leia uma letra. Se a letra for uma vogal, imprimir a mensagem “vogal”, caso contrário, imprimir a mensagem “consoante”.&#x20;
+Faça um **fluxograma** para imprimir dois nomes que deverão ser lidos através de uma unidade de entrada de dados qualquer.
+
+Faça um **fluxograma** que leia 3 números inteiros. Calcule e imprima a soma desses números.
+
+Implementar um **fluxograma** que leia uma letra. Se a letra for uma vogal, imprimir a mensagem “vogal”, caso contrário, imprimir a mensagem “consoante”.&#x20;
 {% endhint %}
 
 

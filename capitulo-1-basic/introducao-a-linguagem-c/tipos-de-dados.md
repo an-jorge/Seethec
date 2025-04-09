@@ -1,8 +1,8 @@
 # Tipos de dados
 
-
-
 {% hint style="info" %}
+### **Saiba mais:**
+
 **No final desta lição, você será capaz de responder ao seguinte**:
 
 * Quais são os tipos de dados
@@ -54,8 +54,9 @@ Esses tipos são construídos a partir dos tipos primitivos e permitem armazenar
 {% hint style="warning" %}
 #### ✏️ Actividade de aprendizagem <a href="#actividade-de-aprendizagem" id="actividade-de-aprendizagem"></a>
 
-* Qual a diferença entre os tipos `float` e `double` em C?
-* Qual biblioteca em C contém a definição para o tipo `bool`?\
+Qual a diferença entre os tipos `float` e `double` em C?
+
+Qual biblioteca em C contém a definição para o tipo `bool`?\
 
 {% endhint %}
 

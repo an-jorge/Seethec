@@ -1,6 +1,8 @@
 # Comentários
 
 {% hint style="info" %}
+### **Saiba mais**
+
 **No final desta lição, você será capaz de responder ao seguinte**:
 
 * O que são comentários? Por que devo usá-los?
@@ -17,7 +19,7 @@ Geralmente acredita-se que um bom código é autoexplicativo, [há um livro famo
 
 Para escrever um comentário, digite // (duas barras), seguido pelo comentário que deseja adicionar. Tudo depois de // é ignorado até a próxima linha.
 
-{% code overflow="wrap" lineNumbers="true" %}
+{% code overflow="wrap" %}
 ```c
   printf("Olá mundo!\n");  // Prints Olá mundo!
   
@@ -71,7 +73,7 @@ int main() {
 {% hint style="warning" %}
 #### ✏️ Actividade de aprendizagem <a href="#actividade-de-aprendizagem" id="actividade-de-aprendizagem"></a>
 
-* Use uma mistura de comentários de uma única linha e comentários de várias linhas.
+Use uma mistura de comentários de uma única linha e comentários de várias linhas.
 {% endhint %}
 
 [^1]: &#x20;O Clean Code refere-se a um estilo de programação que enfatiza a legibilidade, a facilidade de manutenção e a eficiência do _código_.

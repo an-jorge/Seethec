@@ -8,7 +8,7 @@
 
 O guia **See the C** nasceu pelo interesse na linguagem e por querer registrar os meus estudos e do desejo de compartilhar com você o que aprendi ao longo dos anos. Se você já se sentiu perdido ou inseguro sobre algo, bem este guia é para você.&#x20;
 
-Este guia é um guia vivo o que quer dizer? As alterações são constantes, como se diz popularmente vivendo aprendendo esta é a maior diferenciação de todos outros, com bastante foco em **conceitos fundamentais de algoritmos**, **lógica de programação** com muitos exercícios e projectos no final de cada capítulo. Sempre começa pequeno faça suas alterações, pratique bastante [peça ajuda](https://github.com/an-jorge/Clang/issues) quando necessário as "respostas" estão dispóniveis. Então como posso pedir [ajuda](intro/prefacio/guia-de-contribuicoes.md#issues)?&#x20;
+Este guia é um guia vivo o que quer dizer? As alterações são constantes, como se diz popularmente vivendo aprendendo esta é a maior diferenciação de todos outros, com bastante foco em **conceitos fundamentais de algoritmos**, **lógica de programação** se preferir de uma forma de uma outra forma podemos dizer **"Princípios Fundamentais da Programação"** tudo de forma clara e direita com muitos exercícios e projectos no final de cada capítulo. Te peço que sempre começa pequeno faça suas alterações, pratique bastante [peça ajuda](https://github.com/an-jorge/Clang/issues) quando necessário as "respostas" estão dispóniveis. Então, como posso pedir [ajuda](intro/prefacio/guia-de-contribuicoes.md#issues) deves te perguntar?&#x20;
 
 ### O Lobo solidário
 

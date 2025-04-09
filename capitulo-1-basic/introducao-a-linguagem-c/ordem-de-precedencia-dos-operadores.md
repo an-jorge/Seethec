@@ -58,10 +58,12 @@ int main()
 
 #### **Saída**
 
+{% code overflow="wrap" %}
 ```c
 Resultado 1: 20
 Resultado 2: 30
 Resultado 3: 1
 
 ```
+{% endcode %}
 

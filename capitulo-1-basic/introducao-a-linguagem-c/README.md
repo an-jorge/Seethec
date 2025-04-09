@@ -82,6 +82,23 @@ Usam a sintaxe e conceitos de **C** como base:
 
 ***
 
+
+
+### Softwares populares feitos em C/C++
+
+1. [VLC Media Player](https://www.videolan.org/vlc/) Popular reprodutor de musicas e vídeos, a escrita em **C**
+2. [MPlayer ](https://pt.wikipedia.org/wiki/MPlayer)- Outro player famoso baseado em C.
+3. [Google Chrome & Chromium - ](https://pt.wikipedia.org/wiki/Chromium) Usa C e C++ para o motor Blink.
+4. [OpenSSL](https://en.wikipedia.org/wiki/OpenSSL)  Biblioteca de criptografia amplamente usada, escrita em C.
+5. [Wireshark ](https://en.wikipedia.org/wiki/Wireshark)Ferramenta de análise de tráfego de rede, escrita em C.
+6. [MySQL ](https://en.wikipedia.org/wiki/MySQL)Originalmente escrito em C e C++.
+
+
+
+***
+
+
+
 ### **Sistemas operacionais baseados em C**
 
 Além das linguagens, o C é a base para muitos sistemas operacionais, como:
@@ -109,9 +126,11 @@ Além das linguagens, o C é a base para muitos sistemas operacionais, como:
 {% hint style="warning" %}
 ## ✏️ **Actividades de aprendizagem**
 
-* O que é entendes por Hardware e Software?
-* O que entendes por multiplataforma e quais OS conheces?
-* O que é a sintaxe de uma linguagem de programção?
+O que é entendes por Hardware e Software?
+
+O que entendes por multiplataforma e quais OS conheces?
+
+O que é a sintaxe de uma linguagem de programção?
 {% endhint %}
 
 

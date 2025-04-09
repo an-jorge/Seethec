@@ -32,14 +32,14 @@ Esse "conversor" é chamado de **compilador**. Um compilador deve analisar um pr
 
 
 
-### Etapas do processo de compilação
+## Etapas do processo de compilação
 
-#### **1. Código-fonte (Escrita)**
+### **1. Código-fonte (Escrita)**
 
 * O desenvolvedor escreve o programa em **linguagem C** e salva em um arquivo com extensão `.c`.
   * Exemplo: `main.c`.
 
-#### **2. Preprocessamento**
+### **2. Preprocessamento**
 
 * O **preprocessador** (etapa inicial do compilador) executa instruções de diretivas, como `#include` e `#define`.
   * Inclui arquivos de cabeçalho, como `<stdio.h>` ou `<math.h>`.
@@ -47,31 +47,31 @@ Esse "conversor" é chamado de **compilador**. Um compilador deve analisar um pr
   * Remove comentários e expande diretivas do tipo `#ifdef`.
 * O resultado é um arquivo intermediário com as diretivas processadas.
 
-#### **3. Compilação**
+### **3. Compilação**
 
 * O **compilador** converte o código-fonte preprocessado em **código assembly** (um conjunto de instruções específicas para o processador da máquina).
   * O código assembly é de baixo nível, próximo da linguagem de máquina, mas ainda legível por humanos.
   * Exemplo: Um arquivo `.s` gerado.
 
-#### **4. Montagem**
+### **4. Montagem**
 
 * O **montador** converte o código assembly em **código de máquina** (binário), gerando um arquivo objeto (`.o` ou `.obj`).
   * Esse arquivo contém instruções binárias que o processador pode entender, mas ele ainda não é um programa executável, porque depende de outras partes (bibliotecas, funções, etc.).
 
-#### **5. Linkagem**
+### **5. Linkagem**
 
 * O **linker** junta o arquivo objeto gerado com outras bibliotecas e arquivos objeto necessários.
   * Resolve referências entre funções e variáveis (exemplo: `printf()` é ligado à biblioteca padrão `libc`).
   * Gera o programa final, que é um executável.
   * O resultado é o arquivo **executável** (por exemplo, `programa.exe` no Windows ou `programa.out` no Linux).
 
-#### **6. Execução**
+### **6. Execução**
 
 * Após a linkagem, o programa compilado pode ser executado diretamente pelo sistema operacional.
 
 ***
 
-### **Resumo das ferramentas envolvidas**
+## **Resumo das ferramentas envolvidas**
 
 * **Preprocessador:** Expande macros e inclui cabeçalhos.
 * **Compilador:** Converte para código assembly.
@@ -93,7 +93,33 @@ Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo comple
 **como funciona a programação?**
 {% endembed %}
 
+
+
+## "HELLO WORLD" - Seu Primeiro Programa
+
 ***
+
+{% code overflow="wrap" lineNumbers="true" %}
+```c
+#include <stdio.h>            
+
+int main () 
+{                
+   printf("Hello World! \n"); 
+   return 0;                  
+}  
+
+                             
+```
+{% endcode %}
+
+{% hint style="info" %}
+## Compilar o seu código
+
+Dupla barra **//** indica um comentarios são ignorados pelo compilador
+{% endhint %}
+
+
 
 
 
@@ -119,8 +145,6 @@ Ferramentas como o **GCC (GNU Compiler Collection)** seguem esse processo comple
 
 
 {% endhint %}
-
-***
 
 
 

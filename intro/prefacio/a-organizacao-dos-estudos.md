@@ -29,13 +29,13 @@ Para poder companhar o guia ou os encontros ao vivo você precisa dos softwares 
 {% endhint %}
 
 {% hint style="warning" %}
-✏️**Actividades de aprendizagem**: apresenta actividades em diferentes níveis de aprendizagem.
+✏️  **Actividades de aprendizagem**: apresenta actividades em diferentes níveis de aprendizagem.
 
 ***
 
 
 
-⚡️ **Lightning Round**: apresenta actividades de código ou raciocínio lógico em diferentes niveis de aprendizagem.
+⚡️  **Lightning Round**: apresenta actividades de código ou raciocínio lógico em diferentes niveis de aprendizagem.
 {% endhint %}
 
 {% hint style="danger" %}

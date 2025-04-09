@@ -16,20 +16,24 @@ Operadores **aritméticos** são símbolos usados na linguagem C para realizar c
 
 Na programação de forma geral, o operador de adição é o símbolo **+**. Ele é usado para somar dois ou mais valores, sejam eles números inteiros, números de ponto flutuante ou até mesmo caracteres. A sintaxe é igual para todos todos os operadores matemáticos.
 
+{% code overflow="wrap" %}
 ```c
 result = value + value2;
 ```
+{% endcode %}
 
 onde:
 
 * `result` é a variável que irá armazenar o resultado da soma.
 * `value` e `value2` são os valores que serão somados.
 
+{% code overflow="wrap" %}
 ```c
 int value = 10;
 int value2 = 5;
 int result = value + value2; // soma será igual a 15
 ```
+{% endcode %}
 
 {% code overflow="wrap" %}
 ```c
@@ -39,14 +43,14 @@ int soma = c1 + c2; // soma será igual a 131 (valor ASCII de 'A' + valor ASCII 
 ```
 {% endcode %}
 
-
-
 {% hint style="info" %}
-**Saiba mais:**
+### **Saiba mais:**
 
-* O operador de adição pode ser usado com qualquer tipo de dado numérico em C, incluindo `int`, `float`, `double`, `char`, etc.
-* Quando os operandos são de tipos diferentes, o C realiza conversões automáticas para um tipo comum antes de realizar a soma.
-* O operador de adição também pode ser usado para concatenar strings em C, mas para isso é necessário usar funções específicas da [**biblioteca string.h**](#user-content-fn-1)[^1], como `strcat`.
+O operador de adição pode ser usado com qualquer tipo de dado numérico em C, incluindo `int`, `float`, `double`, `char`, etc.
+
+Quando os operandos são de tipos diferentes, o C realiza conversões automáticas para um tipo comum antes de realizar a soma.
+
+O operador de adição também pode ser usado para concatenar strings em C, mas para isso é necessário usar funções específicas da [**biblioteca string.h**](#user-content-fn-1)[^1], como `strcat`.
 {% endhint %}
 
 ***
@@ -73,6 +77,7 @@ int main() {
 
 #### **Subtração com números de ponto flutuante (`float`)**
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -86,6 +91,7 @@ int main() {
 }
 
 ```
+{% endcode %}
 
 ***
 
@@ -93,6 +99,7 @@ int main() {
 
 A **multiplicação** é feita usando o operador `*` (asterisco). Esse operador funciona para multiplicar **inteiros**, **floats** e **doubles**. Aqui vão exemplos simples e práticos:
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -106,6 +113,7 @@ int main() {
 }
 
 ```
+{% endcode %}
 
 ***
 
@@ -113,6 +121,7 @@ int main() {
 
 A **divisão** é feita usando o operador `/`. Dependendo do tipo de dado (inteiro ou ponto flutuante), a divisão pode ter comportamentos diferentes.
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -126,6 +135,7 @@ int main() {
 }
 
 ```
+{% endcode %}
 
 {% hint style="info" %}
 **Saiba mais:**
@@ -135,6 +145,7 @@ int main() {
 
 #### **Divisão de números de ponto flutuante (`float` ou `double`)**
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -148,9 +159,10 @@ int main() {
 }
 
 ```
+{% endcode %}
 
 {% hint style="danger" %}
-**Atenção**
+## **Atenção**
 
 * Se um ou ambos os números forem de ponto flutuante, o resultado será um número decimal.
 
@@ -234,13 +246,10 @@ int main() {
 {% endcode %}
 
 {% hint style="info" %}
-**Saiba:**
+### Saiba mais:
 
-Mais além entenderemos em detalhe sobre bibloteca **Math.h** e outros.\
-
+Mais além entenderemos em detalhe sobre bibloteca **Math.h** e outros.
 {% endhint %}
-
-***
 
 ### Incremento `++`
 
@@ -251,6 +260,7 @@ Ele pode ser usado de duas formas:
 * **Pré-incremento** (`++x`) → Incrementa **primeiro**, depois usa o valor.
 * **Pós-incremento** (`x++`) → Usa o valor primeiro, **depois** incrementa.
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -263,6 +273,7 @@ int main() {
   return 0;
 }
 ```
+{% endcode %}
 
 ***
 
@@ -273,6 +284,7 @@ int main() {
 * **Pré-decremento** (`--x`) → **Decrementa antes** de usar o valor.
 * **Pós-decremento** (`x--`) → **Usa o valor primeiro**, depois decrementa.
 
+{% code overflow="wrap" %}
 ```c
 #include <stdio.h>
 
@@ -286,15 +298,14 @@ int main() {
 }
 
 ```
+{% endcode %}
 
 ***
-
-
 
 {% hint style="warning" %}
 #### ✏️ **Actividade** de aprendizagem <a href="#actividade-de-aprendizagem" id="actividade-de-aprendizagem"></a>
 
-* &#x20;Diga uma aplicação de uso do operator de incremento ou decremento
+Diga uma aplicação de uso do operator de incremento ou decremento
 {% endhint %}
 
 
